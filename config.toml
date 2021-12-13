@@ -1,6 +1,6 @@
 baseURL = "https://ecrypt.gg"
 languageCode = "en-us"
-title = "ecrypt.gg"
+title = "ecrypt.gg blog"
 copyright = "© ecrypt 2021"
 googleAnalytics = ""
 
@@ -17,12 +17,12 @@ theme = "minima"
 [author]
 name = "ecrypt"
 slogon = "software engineer and everything enthusiast"
-description = "This is Minima, a clean and minimal Hugo theme porting from the [Hexo Minima](https://github.com/adisaktijrs/hexo-theme-minima). Except for everything from Hexo Minima like dark/light mode, it supports KaTeX, Mermaid, comments and some taxonomies like categories, series and tags. I created this using SCSS, Vanilla JS and the most important, Hugo. 😁"
+description = ""
 
 
 [params]
 # iam is the beginning words of your self-introduction.
-iam = "" #"I am"
+iam = "I am"
 # The subtitle will be shown after the title of your blog site.
 # e.g. "title - subtitle".
 subtitle = ""
