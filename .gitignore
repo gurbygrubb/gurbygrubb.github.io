@@ -1,5 +1,6 @@
 public
 resources
+themes/minima
 hugo.exe
 hugo.linux
 hugo.darwin
