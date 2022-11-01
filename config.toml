@@ -1,7 +1,7 @@
-baseURL = "https://ecrypt.gg"
+baseURL = "https://www.gurbygrubb.com"
 languageCode = "en-us"
-title = "ecrypt.gg blog"
-copyright = "© ecrypt 2021"
+title = "gurbygrubb home"
+copyright = "© gurbygrubb 2026"
 googleAnalytics = ""
 
 # paginate decides the number of the newest posts
@@ -15,7 +15,7 @@ theme = "minima"
 
 # Author has some of your information to be shown on the home page.
 [author]
-name = "ecrypt"
+name = "gurbygrubb"
 slogon = "software engineer and everything enthusiast"
 description = ""
 
@@ -80,11 +80,11 @@ placeholder = ""
 # where `<svg>` is the svg code.
 [[params.social]]
 name = "github"  
-url = "https://github.com/ecryptgg"
+url = "https://github.com/gurbygrubb"
 svg = ""
 [[params.social]]
 name = "twitter"
-url = "https://twitter.com/ecryptGG"
+url = "https://twitter.com/gurbygrubb"
 svg = ""
 [[params.social]]
 name = "rss"
