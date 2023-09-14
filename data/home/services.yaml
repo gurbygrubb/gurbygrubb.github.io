@@ -1,0 +1,20 @@
+enabled: true
+id: "services"
+
+content:
+  title: "Videos"
+  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec quam nibh elit pellentesque velit netus suspendisse. Sed enim, pretium, montes, in ut dolor urna."
+  cards:
+
+    - image: "images/paris-drone.png"
+      title: "paris 2023 vlog"
+      subtitle: "2023 vlog"
+      url: "#"
+
+    - image: "images/stop-walking-away.png"
+      title: "Stop Walking Away"
+      url: "#"
+
+    - image: "images/pumpkin-choco-cookies.png"
+      title: "Pumpkin Chocolate Chip Cookies"
+      url: "#"

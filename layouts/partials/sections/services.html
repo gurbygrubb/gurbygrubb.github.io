@@ -1,0 +1,32 @@
+<section class="section services py-5">
+  <div class="container">
+    <div class="row justify-content-center pb-0">
+      <div class="col-12 col-xl-6">
+        {{ with .content.title }}
+          <h4 class="fs-2 fw-bold text-center text-primary text-uppercase pb-3">{{ . }}</h4>
+        {{ end }}
+      </div>
+    </div>
+    <div class="row g-0">
+      <div class="card-group col-12 col-xl-12">
+      {{ range .content.cards }}
+        <!-- <div class="col-12 col-xl-4"> -->
+          <div class="card card-videos border-0 rounded-0 p-1">
+            {{ with .url }}<a class="" href="{{ . }}">{{ end }}
+            <div class="card-videos-image">
+            {{ with .image }}{{ partial "utilities/image-fluid-card.html" . }}{{ end }}
+            <div class="card-videos-overlay">
+              <div class="card-img-overlay d-flex">
+                {{ with .title }}<h5 class="align-self-end mx-2 card-title video-title text-left text-light text-uppercase">{{ . }}</h5>{{ end }}
+                <!-- <div class="align-self-end">{{ with .subtitle }}<p class="card-text text-light text-center"><small class="text-body-secondary">{{ . }}</small></p>{{ end }}</div> -->
+              </div>
+            </div>
+            </div>
+            </a>
+          </div>
+        <!-- </div> -->
+      {{ end }}
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,15 @@
+enabled: true
+id: "hero"
+
+content:
+  title: "i dabble in **cinematography** and *code*"
+  text: "I'm ensnared by the way visual storytelling incites emotions in us. I sling code at my day job to clear space to dig into hobby filmmaking at night."
+
+  buttonPrimary:
+    label: "Blog"
+    url: "/blog"
+
+  buttonSecondary:
+    label: "YouTube"
+    url: "https://youtube.com/@Eyejaw"
+

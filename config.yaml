@@ -1,0 +1,61 @@
+baseURL: "https://www.elijahlloydgrubb.com/"
+theme: "up-business-theme"
+languageCode: "en-us"
+
+title: "elijah lloyd grubb"
+
+# googleAnalytics: ""
+
+summaryLength: 20
+
+params:
+  title: "elijah lloyd grubb"
+  description: "i dabble in *cinematography* and **code**."
+  images: 
+    - "images/hero-image.png"
+
+  logo: "arrow-up.png"
+
+  favicons:
+    themeColor: "#FFFFFF"
+    backgroundColor: "#FFFFFF"
+    faviconColor: "#3B4013"
+
+  social:
+    instagram: "https://www.instagram.com/elijahlloydgrubb/"
+    youtube: "https://youtube.com/@Eyejaw"
+    threads: "https://www.threads.net/@elijahlloydgrubb"
+    letterboxd: "https://letterboxd.com/gurbygrubb/"
+
+  location:
+    - "Ogden, Utah"
+
+  contact:
+    - "ElijahLGrubb@gmail.com"
+
+  copyright: "© 2023 All Rights Reserved"
+
+menus:
+  main:
+    - name: "Home"
+      url: "/#hero"
+      weight: 1
+
+  buttons:
+    - name: "Blog"
+      url: "/blog"
+      weight: 5
+      pre: "btn btn-info text-light"
+
+  footer:
+    - name: "Home"
+      url: "/#hero"
+      weight: 1
+
+    - name: "Blog"
+      url: "/blog"
+      weight: 5
+
+taxonomies:
+  series: "series"
+  tags: "tags"
