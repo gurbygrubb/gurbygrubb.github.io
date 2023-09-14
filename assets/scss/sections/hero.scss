@@ -1,0 +1,30 @@
+.section.hero {
+  .hero-image {
+    // @media (min-width: 1400px) {
+    //   img {
+    //     max-width: 125%;
+    //     float: right;
+    //   }
+    // }
+  }
+  .hero-title {
+    strong {
+      color: $danger;
+      background-color: transparent;
+    }
+    strong:hover {
+      color: white;
+      background-color: $danger;
+      transition: .25s ease-in-out;
+    }
+    em {
+      color: $info;
+      font-style: normal;
+    }
+    em:hover {
+      color: white;
+      background-color: $info;
+      transition: .25s ease-in-out;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.footer-description {
+    strong {
+        color: $danger;
+      }
+      em {
+        color: $info;
+        font-style: normal;
+        font-weight: bold;
+      }
+}
