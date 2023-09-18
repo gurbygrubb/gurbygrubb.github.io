@@ -1,0 +1,22 @@
+.blog-content {
+    max-width: 900px;
+  
+    .highlight {
+      pre {
+        padding: 16px;
+        border-radius: 8px;
+      }
+    }
+  
+    .cited {
+      text-align: right;
+    }
+
+    blockquote {
+        margin: 30px 15px 25px 15px;
+        padding: 30px 20px 0px 20px;
+        background-color: rgba(126, 166, 148, 0.25);
+        border: solid rgba(126, 166, 148, .8);
+    }
+  }
+  

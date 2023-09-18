@@ -22,6 +22,7 @@
         <ul class="d-flex justify-content-center justify-content-xl-end list-unstyled">
           {{ with .instagram }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" href="{{ . }}">{{ partial "icons/instagram.html" }}</a></li>{{ end }}
           {{ with .youtube }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" href="{{ . }}">{{ partial "icons/youtube.html" }}</a></li>{{ end }}
+          {{ with .vimeo }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" href="{{ . }}">{{ partial "icons/vimeo.html" }}</a></li>{{ end }}
           {{ with .threads }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" href="{{ . }}">{{ partial "icons/threads.html" }}</a></li>{{ end }}
           {{ with .letterboxd }}<li class="rounded-circle bg-blue-63 me-0 p-2"><a class="d-flex align-items-center justify-content-center size-16" href="{{ . }}">{{ partial "icons/letterboxd.html" }}</a></li>{{ end }}
         </ul>

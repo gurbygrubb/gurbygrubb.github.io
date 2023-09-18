@@ -26,6 +26,7 @@ params:
     youtube: "https://youtube.com/@Eyejaw"
     threads: "https://www.threads.net/@elijahlloydgrubb"
     letterboxd: "https://letterboxd.com/gurbygrubb/"
+    vimeo: "https://vimeo.com/egrubb"
 
   location:
     - "Ogden, Utah"
