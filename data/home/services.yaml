@@ -8,12 +8,15 @@ content:
 
     - image: "images/paris-drone.png"
       title: "paris 2023 vlog"
-      subtitle: "2023 vlog"
       url: "#"
+
+    - image: "images/elle-homecoming-cropped.png"
+      title: "Eloise Homecoming"
+      url: "https://vimeo.com/887808599"
 
     - image: "images/stop-walking-away.png"
       title: "Stop Walking Away"
-      url: "#"
+      url: "https://vimeo.com/891249219"
 
     - image: "images/pumpkin-choco-cookies.png"
       title: "Pumpkin Chocolate Chip Cookies"

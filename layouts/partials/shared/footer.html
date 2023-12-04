@@ -16,7 +16,8 @@
         {{ end }}
       </div>
       <div class="col-12 col-xl-6 text-end text-xl-start pb-4">
-        <h4 class="fs-4 fw-semibold text-end text-lowercase text-secondary">{{ .Site.Title }}</h4>
+        <h4 class="fs-4 fw-semibold d-flex justify-content-center justify-content-xl-end text-lowercase text-secondary">{{ .Site.Title }}</h4>
+        <!-- <p class="small d-flex justify-content-center justify-content-xl-end text-black-61 footer-description">{{ .Site.Params.description | markdownify }}</p> -->
         <p class="small text-end text-black-61 footer-description">{{ .Site.Params.description | markdownify }}</p>
         {{ with .Site.Params.social }}
         <ul class="d-flex justify-content-center justify-content-xl-end list-unstyled">
