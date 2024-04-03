@@ -6,18 +6,18 @@ content:
   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec quam nibh elit pellentesque velit netus suspendisse. Sed enim, pretium, montes, in ut dolor urna."
   cards:
 
-    - image: "images/paris-drone.png"
+    - image: "images/paris-drone-new.png"
       title: "paris 2023 vlog"
-      url: "#"
+      url: "https://vimeo.com/930096614?share=website"
 
     - image: "images/elle-homecoming-cropped.png"
       title: "Eloise Homecoming"
-      url: "https://vimeo.com/887808599"
+      url: "https://vimeo.com/887808599?share=website"
 
     - image: "images/stop-walking-away.png"
       title: "Stop Walking Away"
-      url: "https://vimeo.com/891249219"
+      url: "https://vimeo.com/891249219?share=website"
 
     - image: "images/pumpkin-choco-cookies.png"
       title: "Pumpkin Chocolate Chip Cookies"
-      url: "https://vimeo.com/865687851"
+      url: "https://vimeo.com/865687851?share=website"
